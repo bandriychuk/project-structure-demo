@@ -5,6 +5,7 @@ buildscript {
         }
     }
 
+    //important! We should 'Enable annotation processing in Project setup'
     dependencies {
         classpath "io.franzbecker:gradle-lombok:3.1.0"
         classpath "io.qameta.allure:allure-gradle:2.8.1"
