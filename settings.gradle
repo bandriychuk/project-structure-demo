@@ -1,2 +1,3 @@
 rootProject.name = 'project-structure-demo'
+include 'api-test'
 
