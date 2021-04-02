@@ -1,4 +1,5 @@
 rootProject.name = 'project-structure-demo'
 include 'api-test'
 include 'ui-test'
+include 'ui-demo'
 
