@@ -15,7 +15,7 @@ public class ShoppingCartPage {
 
 	@Step
 	public static ShoppingCartPage open(){
-		Selenide.open("/basket.html");
+		Selenide.open("http://188.166.100.23/basket.html");
 		return new ShoppingCartPage();
 	}
 
