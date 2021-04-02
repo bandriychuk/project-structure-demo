@@ -16,7 +16,7 @@ public class TestLogin extends BaseUITest {
 	private final UserApiService userApiService = new UserApiService();
 
 	@Test
-	public void testUserCanLoginWithValidCredentials() throws InterruptedException {
+	public void testUserCanLoginWithValidCredentials(){
 		UserPayload userPayload = new UserPayload()
 				.username(randomAlphabetic(6))
 				.email("demo@gmail.com")
