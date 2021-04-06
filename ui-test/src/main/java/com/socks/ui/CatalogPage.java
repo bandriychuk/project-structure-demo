@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class CatalogPage {
 
 	public static CatalogPage open() {
-		Selenide.open("/category.html");
+		Selenide.open("http://188.166.100.23/category.html");
 		return Selenide.page(CatalogPage.class);
 	}
 
