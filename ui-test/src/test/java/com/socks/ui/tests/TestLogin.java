@@ -1,6 +1,5 @@
 package com.socks.ui.tests;
 
-import com.codeborne.selenide.Condition;
 import com.socks.api.payloads.UserPayload;
 import com.socks.api.services.UserApiService;
 import com.socks.ui.LoggedUserPage;
